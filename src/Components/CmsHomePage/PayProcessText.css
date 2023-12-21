@@ -1,0 +1,27 @@
+.text-color {
+  color: #413f3f;
+}
+.font-26px {
+  font-size: 26px;
+}
+
+.padding {
+  padding: 6rem 11rem;
+}
+
+.img-width {
+  max-width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .padding {
+    padding: 2rem 3rem;
+  }
+  .font-26px {
+    font-size: 18px;
+  }
+
+  .img-width {
+    max-width: unset;
+  }
+}

@@ -1,0 +1,58 @@
+.bg-img {
+  background-image: url('../../../public/images/ApAuto-bg.png');
+  background-size: 100% 100%;
+}
+
+.background-white {
+  background-color: #fff;
+}
+
+.text-linear {
+  background: linear-gradient(93.67deg, #239a99 3.42%, #4eb7e9 93.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-headr-color {
+  color: #0b4174;
+}
+
+.font-45px {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.font-28px {
+  font-size: 28px;
+}
+
+.font-18px {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.font-14px {
+  font-size: 14px;
+}
+
+.btn-bg {
+  background-color: #32bdbf;
+}
+
+@media only screen and (max-width: 768px) {
+  .font-45px {
+    font-size: 20px;
+  }
+
+  .font-28px {
+    font-size: 18px;
+  }
+
+  .font-18px {
+    font-size: 14px;
+  }
+
+  .font-14px {
+    font-size: 14px;
+  }
+}
